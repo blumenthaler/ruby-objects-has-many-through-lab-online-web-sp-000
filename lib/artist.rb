@@ -27,7 +27,7 @@ class Artist
   # returns all songs associated with this Artist
   def songs
     Song.all.select do |song|
-      song.artist = self
+      song.artist == self
     end
   end
   
