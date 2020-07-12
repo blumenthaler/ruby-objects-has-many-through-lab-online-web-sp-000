@@ -13,7 +13,7 @@ class Artist
   end
   
   def new_song
-    
+    # iterates 
   
   
 end
