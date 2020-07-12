@@ -23,6 +23,8 @@ class Artist
   
   # iterates through all songs and finds the songs that belong to that artist. 
   #   Try using select to achieve this.
+  
+  # returns all songs associated with this Artist
   def songs
     Song.all.select do |song|
       song.artist = self
