@@ -22,7 +22,7 @@ class Artist
   def songs
     artist_songs = []
     Song.all.select do |song|
-      (song.artist = self)
+      song.artist = self
     end
   end
   
