@@ -21,6 +21,6 @@ class Doctor
       appt.doctor == self
     end
   end
-  end
+  
   
 end
