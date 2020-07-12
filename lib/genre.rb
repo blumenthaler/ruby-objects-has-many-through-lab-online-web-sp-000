@@ -22,6 +22,9 @@ class Genre
     # iterates over this genre's songs & collects the artist that owns each song
     songs.collect do |genres_song|
       
+      
+      
+    end
   end
   
   
