@@ -23,6 +23,4 @@ class Genre
       genres_song.artist
     end
   end
-  
-  
 end
