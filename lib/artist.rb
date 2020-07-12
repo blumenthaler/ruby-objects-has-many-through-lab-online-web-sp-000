@@ -24,8 +24,9 @@ class Artist
   
   def genres
       # iterates over artist's songs and collects genre of each song
- #   songs.select do |artists_song|
- #     artists_song.genre
+    songs.select do |artists_song|
+      artists_song.genre
+    end
   end
   
   
