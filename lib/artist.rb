@@ -19,6 +19,10 @@ class Artist
     song.artist = self
   end
   
+  
+  
+  # iterates through all songs and finds the songs that belong to that artist. 
+  #   Try using select to achieve this.
   def songs
     Song.all.select do |song|
       song.artist = self
