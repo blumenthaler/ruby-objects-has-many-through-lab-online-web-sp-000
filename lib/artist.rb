@@ -19,6 +19,11 @@ class Artist
     song.artist = self
   end
   
+  def songs
+    Song.all each do |song|
+      
+    end
+  end
   
   
   
