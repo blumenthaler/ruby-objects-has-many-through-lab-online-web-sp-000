@@ -27,6 +27,4 @@ class Artist
       artists_song.genre
     end
   end
-  
-  
 end
