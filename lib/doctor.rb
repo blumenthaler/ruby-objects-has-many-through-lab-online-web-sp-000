@@ -27,6 +27,4 @@ class Doctor
       doc_appt.patient
     end
   end
-  
-  
 end
