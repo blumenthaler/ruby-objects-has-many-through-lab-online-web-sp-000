@@ -16,7 +16,6 @@ class Artist
       # creates a new song
     song = Song.new(name, genre, artist = self)
       # song should know that it belongs to this artist
-    song.artist = self
   end
   
   def songs
