@@ -19,7 +19,6 @@ class Genre
   end
   
   def artists
-    # iterates over this genre's songs & collects the artist that owns each song
     songs.collect do |genres_song|
       genres_song.artist
     end
