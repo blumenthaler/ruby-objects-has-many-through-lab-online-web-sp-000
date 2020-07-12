@@ -16,4 +16,7 @@ class Artist
     # iterates 
   
   
+  
+  
+  
 end
