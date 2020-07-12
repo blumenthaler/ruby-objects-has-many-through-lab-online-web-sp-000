@@ -23,7 +23,6 @@ class Genre
     songs.collect do |genres_song|
       
       
-      
     end
   end
   
